@@ -1,0 +1,19 @@
+{
+  "name": "@chat/core",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "Chris Nguyen <chris.dungnguyen@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.ts",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "test": "node ./__tests__/core.test.js"
+  }
+}
